@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julia Camini Veiga — Desenvolvedora Fullstack</title>
+  <meta name="description" content="Portfólio de Julia Camini Veiga, desenvolvedora fullstack (PHP e Flutter) com 4 sistemas web em produção. Estudante de ADS (UPF) e Cibersegurança (UNOPAR).">
+  <meta property="og:title" content="Julia Camini Veiga — Desenvolvedora Fullstack">
+  <meta property="og:description" content="PHP · Flutter · 4 sistemas web em produção. Veja projetos, experiência e contato.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://byjuliacamini.com.br/">
+  <meta property="og:image" content="https://byjuliacamini.com.br/assets/og.png">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23050510'/><text x='50' y='70' font-size='60' text-anchor='middle' fill='%233355ff' font-family='Arial' font-weight='bold'>J</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <a href="#topo" class="nav__brand">JULIA<span>.dev</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#projetos">Projetos</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato" class="nav__cta">Contato</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menu"><span></span><span></span></button>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="topo">
+    <div class="hero__meta">
+      <span class="mono">DESENVOLVEDORA FULLSTACK</span>
+      <span class="hero__meta-item mono"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg> BASEADA EM<br><b>PASSO FUNDO, RS</b></span>
+      <span class="hero__meta-item mono status">DISPONÍVEL PARA<br><b>NOVAS OPORTUNIDADES</b> <i class="dot"></i></span>
+    </div>
+
+    <div class="hero__grid">
+      <div class="hero__text">
+        <h1 class="display">
+          <span class="reveal">CÓDIGO QUE</span>
+          <span class="accent reveal">RESOLVE.</span>
+        </h1>
+        <p class="hero__lead reveal">
+          <svg class="spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.6 5.4 11.4 12 12-6.6.6-11.4 5.4-12 12-.6-6.6-5.4-11.4-12-12C6.6 11.4 11.4 6.6 12 0z"/></svg>
+          Desenvolvo sistemas web que as pessoas usam de verdade. PHP no back-end, Flutter no mobile e 4 sistemas em produção.
+        </p>
+        <div class="hero__actions reveal">
+          <a href="#projetos" class="btn btn--primary">Ver projetos <span>→</span></a>
+          <a href="assets/curriculo.pdf" class="btn" download>Baixar currículo <span>↓</span></a>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal">
+        <div class="ring"></div>
+        <div class="photo">
+          <span class="photo__fallback">J</span>
+        </div>
+        <div class="hero__cut"><img class="hero__photo" src="assets/foto.webp" alt="Foto de Julia Camini Veiga" onerror="this.remove()"></div>
+        <div class="hero__name">
+          <svg class="crosshair" viewBox="0 0 40 40"><circle cx="20" cy="20" r="9" fill="none" stroke="currentColor"/><path d="M20 0v40M0 20h40" stroke="currentColor"/></svg>
+          <strong>JULIA<br>CAMINI VEIGA</strong>
+          <span class="mono accent-text">&lt;fullstack /&gt;</span>
+        </div>
+        <div class="code-chip mono">
+          <span class="k">const</span> julia = {<br>
+          &nbsp;&nbsp;stack: [<span class="s">"php"</span>, <span class="s">"flutter"</span>],<br>
+          &nbsp;&nbsp;em_producao: <span class="n">4</span><br>}
+        </div>
+      </div>
+    </div>
+
+    <a href="#projetos" class="scroll-pill mono">ROLE PARA EXPLORAR <span>↓</span></a>
+  </section>
+
+  <!-- ============ NÚMEROS ============ -->
+  <section class="stats">
+    <div class="stat reveal"><b data-count="4">0</b><span></span><p>SISTEMAS WEB<br>EM PRODUÇÃO</p></div>
+    <div class="stat reveal"><b data-count="40">0</b><span>+</span><p>SISTEMAS REUNIDOS<br>NO PORTAL</p></div>
+    <div class="stat reveal"><b data-count="9">0</b><span></span><p>SECRETARIAS<br>ATENDIDAS</p></div>
+    <div class="stat reveal"><p>NA ÁREA DE TI<br>DESDE</p><b>2023</b><span></span></div>
+  </section>
+
+  <!-- ============ PROJETOS ============ -->
+  <section class="section" id="projetos">
+    <div class="section__head">
+      <h2 class="label"><span class="label__icon">✦</span> SISTEMAS EM PRODUÇÃO</h2>
+      <span class="link-more mono">Cada um com portal público e painel administrativo · PHP</span>
+    </div>
+
+    <div class="projects projects--real">
+
+      <!-- DESTAQUE: MUSEU -->
+      <article class="project project--feature reveal">
+        <a href="https://pmsoledaders.inf.br/museu/" target="_blank" rel="noopener" class="project__shot" aria-label="Abrir site do Museu Municipal">
+          <div class="mock-bar"><i></i><i></i><i></i><em>pmsoledaders.inf.br/museu</em></div>
+          <img src="assets/projetos/museu.webp" alt="Página inicial do Museu Municipal de Soledade" loading="lazy">
+        </a>
+        <div class="project__body">
+          <div class="project__info">
+            <span class="project__num">01</span>
+            <h3>MUSEU MUNICIPAL</h3>
+            <p>Catálogo digital com <strong>217 peças</strong> do acervo e linha do tempo da história da cidade. Inclui o <strong>"Museu da Pessoa"</strong>: moradores enviam relatos em vídeo, que passam por moderação no painel antes de serem publicados.</p>
+            <ul class="tags"><li>PHP</li><li>Acervo digital</li><li>Envio de vídeos</li><li>Moderação</li></ul>
+          </div>
+          <div class="project__links">
+            <span class="mono">EM PRODUÇÃO</span>
+            <a href="https://pmsoledaders.inf.br/museu/" target="_blank" rel="noopener" class="btn">Visitar <span>↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- BIBLIOTECA -->
+      <article class="project reveal">
+        <a href="https://pmsoledaders.inf.br/biblio/" target="_blank" rel="noopener" class="project__shot" aria-label="Abrir sistema da Biblioteca">
+          <div class="mock-bar"><i></i><i></i><i></i><em>pmsoledaders.inf.br/biblio</em></div>
+          <img src="assets/projetos/biblio.webp" alt="Tela de acesso do sistema da Biblioteca Pública" loading="lazy">
+        </a>
+        <div class="project__info">
+          <span class="project__num">02</span>
+          <h3>BIBLIOTECA PÚBLICA</h3>
+          <p>Gestão do acervo de mais de <strong>15 mil livros</strong>, com cadastro, empréstimos, devoluções e leitores, além de consulta pública ao acervo.</p>
+          <ul class="tags"><li>PHP</li><li>Empréstimos</li><li>Consulta pública</li></ul>
+        </div>
+        <div class="project__links">
+          <span class="mono">EM PRODUÇÃO</span>
+          <a href="https://pmsoledaders.inf.br/biblio/" target="_blank" rel="noopener" class="btn">Visitar <span>↗</span></a>
+        </div>
+      </article>
+
+      <!-- MEIO AMBIENTE -->
+      <article class="project reveal">
+        <a href="https://pmsoledaders.inf.br/meio_ambiente/" target="_blank" rel="noopener" class="project__shot" aria-label="Abrir sistema de Meio Ambiente">
+          <div class="mock-bar"><i></i><i></i><i></i><em>pmsoledaders.inf.br/meio_ambiente</em></div>
+          <img src="assets/projetos/meio_ambiente.webp" alt="Tela de acesso do sistema de Meio Ambiente" loading="lazy">
+        </a>
+        <div class="project__info">
+          <span class="project__num">03</span>
+          <h3>MEIO AMBIENTE</h3>
+          <p>Requerimentos, fiscalização e denúncias ambientais em um só lugar, com área para o cidadão e painel para o Departamento de Meio Ambiente.</p>
+          <ul class="tags"><li>PHP</li><li>Requerimentos</li><li>Denúncias</li></ul>
+        </div>
+        <div class="project__links">
+          <span class="mono">EM PRODUÇÃO</span>
+          <a href="https://pmsoledaders.inf.br/meio_ambiente/" target="_blank" rel="noopener" class="btn">Visitar <span>↗</span></a>
+        </div>
+      </article>
+
+      <!-- CONSELHOS -->
+      <article class="project reveal">
+        <a href="https://pmsoledaders.inf.br/conselhos" target="_blank" rel="noopener" class="project__shot" aria-label="Abrir sistema dos Conselhos Municipais">
+          <div class="mock-bar"><i></i><i></i><i></i><em>pmsoledaders.inf.br/conselhos</em></div>
+          <img src="assets/projetos/conselhos.webp" alt="Tela de acesso do sistema de Gestão dos Conselhos Municipais" loading="lazy">
+        </a>
+        <div class="project__info">
+          <span class="project__num">04</span>
+          <h3>CONSELHOS MUNICIPAIS</h3>
+          <p>Agenda de reuniões e convocações, atas, resoluções e documentos, cadastro de membros e entidades, e consulta pública de resoluções.</p>
+          <ul class="tags"><li>PHP</li><li>Transparência</li><li>Documentos</li></ul>
+        </div>
+        <div class="project__links">
+          <span class="mono">EM PRODUÇÃO</span>
+          <a href="https://pmsoledaders.inf.br/conselhos" target="_blank" rel="noopener" class="btn">Visitar <span>↗</span></a>
+        </div>
+      </article>
+
+      <!-- PORTAL -->
+      <article class="project reveal">
+        <a href="https://pmsoledaders.inf.br/portal_servidor/" target="_blank" rel="noopener" class="project__shot" aria-label="Abrir Portal de Sistemas Administrativos">
+          <div class="mock-bar"><i></i><i></i><i></i><em>pmsoledaders.inf.br/portal_servidor</em></div>
+          <img src="assets/projetos/portal.webp" alt="Portal de Sistemas Administrativos com busca e cards de sistemas por secretaria" loading="lazy">
+        </a>
+        <div class="project__info">
+          <span class="project__num">05</span>
+          <h3>PORTAL DE SISTEMAS</h3>
+          <p>Reúne mais de 40 sistemas organizados por secretaria, com busca por atalho de teclado, filtro e modo claro e escuro.</p>
+          <ul class="tags"><li>Busca e filtros</li><li>Modo escuro</li><li>9 secretarias</li></ul>
+        </div>
+        <div class="project__links">
+          <span class="mono">EM PRODUÇÃO</span>
+          <a href="https://pmsoledaders.inf.br/portal_servidor/" target="_blank" rel="noopener" class="btn">Visitar <span>↗</span></a>
+        </div>
+      </article>
+
+      <!-- SITE DTI (largura total, imagem à direita) -->
+      <article class="project project--feature project--reverse reveal">
+        <a href="https://pmsoledaders.inf.br/" target="_blank" rel="noopener" class="project__shot" aria-label="Abrir site do Departamento de TI">
+          <div class="mock-bar"><i></i><i></i><i></i><em>pmsoledaders.inf.br</em></div>
+          <img src="assets/projetos/dti.webp" alt="Página inicial do site do Departamento de TI" loading="lazy">
+        </a>
+        <div class="project__body">
+          <div class="project__info">
+            <span class="project__num">06</span>
+            <h3>SITE DO DEPARTAMENTO DE TI</h3>
+            <p>Site institucional com acesso rápido aos sistemas internos e ao portal de chamados, equipe, contatos e um painel em estilo terminal com o status dos serviços do departamento.</p>
+            <ul class="tags"><li>Site institucional</li><li>Responsivo</li><li>Status dos serviços</li></ul>
+          </div>
+          <div class="project__links">
+            <span class="mono">EM PRODUÇÃO</span>
+            <a href="https://pmsoledaders.inf.br/" target="_blank" rel="noopener" class="btn">Visitar <span>↗</span></a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- PROJETOS PRÓPRIOS -->
+    <div class="section__head section__head--sub">
+      <h2 class="label"><span class="label__icon">✦</span> PROJETO PESSOAL</h2>
+    </div>
+    <div class="projects projects--real">
+
+      <!-- APP CARTEIRINHA -->
+      <article class="project project--feature reveal">
+        <div class="project__shot project__shot--app" aria-hidden="true">
+          <div class="phone">
+            <div class="phone__notch"></div>
+            <div class="idcard">
+              <div class="idcard__top"><span></span><b>CARTEIRINHA DIGITAL</b></div>
+              <div class="idcard__row">
+                <div class="idcard__photo"></div>
+                <div class="idcard__lines"><i></i><i></i><i class="short"></i></div>
+              </div>
+              <div class="idcard__qr"></div>
+            </div>
+            <div class="phone__btn"></div>
+          </div>
+        </div>
+        <div class="project__body">
+          <div class="project__info">
+            <span class="project__num">07</span>
+            <h3>APP DE CARTEIRINHA DIGITAL</h3>
+            <p>Aplicativo mobile para emissão e apresentação de carteirinhas digitais, desenvolvido em Flutter.</p>
+            <ul class="tags"><li>Flutter</li><li>Dart</li><li>Mobile</li></ul>
+          </div>
+          <div class="project__links">
+            <span class="mono status-dev">EM DESENVOLVIMENTO</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIÊNCIA + FORMAÇÃO ============ -->
+  <section class="section split" id="experiencia">
+    <div>
+      <h2 class="label"><span class="label__icon">✦</span> EXPERIÊNCIA</h2>
+      <ol class="timeline">
+        <li class="reveal">
+          <span class="timeline__date mono">2023 — ATUAL</span>
+          <h3>Técnico de TI</h3>
+          <span class="timeline__org">Departamento de TI · Prefeitura Municipal de Soledade/RS</span>
+          <ul class="timeline__list">
+            <li>Criei e mantenho 4 sistemas web em PHP em produção: Museu Municipal, Biblioteca Pública, Meio Ambiente e Conselhos Municipais.</li>
+            <li>Desenvolvi o Portal de Sistemas Administrativos, que reúne mais de 40 sistemas, e o site do Departamento de TI.</li>
+            <li>Suporte técnico presencial e remoto, manutenção de equipamentos e configuração de Windows e Linux.</li>
+            <li>Cabeamento estruturado, testes de rede e organização de racks.</li>
+          </ul>
+        </li>
+        <li class="reveal">
+          <span class="timeline__date mono">2022 — 2023</span>
+          <h3>Jovem Aprendiz</h3>
+          <span class="timeline__org">Sicredi Botucaraí</span>
+          <p>Apoio administrativo, relatórios e planilhas, atendimento a associados e organização de eventos.</p>
+        </li>
+        <li class="reveal">
+          <span class="timeline__date mono">2021 — 2022</span>
+          <h3>Jovem Aprendiz</h3>
+          <span class="timeline__org">Cotrijal</span>
+          <p>Atendimento ao cliente e suporte a diferentes áreas da cooperativa.</p>
+        </li>
+      </ol>
+      <a href="assets/curriculo.pdf" class="btn" download>Baixar currículo completo <span>↓</span></a>
+    </div>
+
+    <div>
+      <h2 class="label"><span class="label__icon">✦</span> FORMAÇÃO</h2>
+      <ol class="process edu">
+        <li class="reveal"><span>01</span><div><b>ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</b><p>UPF · 2024 – 2026 · Último semestre</p></div></li>
+        <li class="reveal"><span>02</span><div><b>CIBERSEGURANÇA</b><p>UNOPAR · 2025 – 2028 · Em andamento</p></div></li>
+      </ol>
+      <h2 class="label label--sub"><span class="label__icon">✦</span> CURSOS COMPLEMENTARES</h2>
+      <ol class="process edu">
+        <li class="reveal"><span>03</span><div><b>DESIGN GRÁFICO</b><p>JF Cursos · 2021–2022 · Photoshop, CorelDRAW e Lightroom</p></div></li>
+        <li class="reveal"><span>04</span><div><b>INFORMÁTICA BÁSICA</b><p>JF Cursos · 2020 · Windows, Excel, Word e PowerPoint</p></div></li>
+        <li class="reveal"><span>05</span><div><b>INGLÊS</b><p>Nível básico</p></div></li>
+      </ol>
+      <svg class="big-spark" viewBox="0 0 24 24"><path d="M12 0c.6 6.6 5.4 11.4 12 12-6.6.6-11.4 5.4-12 12-.6-6.6-5.4-11.4-12-12C6.6 11.4 11.4 6.6 12 0z"/></svg>
+    </div>
+  </section>
+
+  <!-- ============ HABILIDADES ============ -->
+  <section class="section" id="habilidades">
+    <h2 class="label"><span class="label__icon">✦</span> HABILIDADES &amp; FERRAMENTAS</h2>
+    <div class="tools">
+      <div class="tool reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/php/php-original.svg" alt=""><div><b>PHP</b><span>Back-end</span></div></div>
+      <div class="tool reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/flutter/flutter-original.svg" alt=""><div><b>Flutter</b><span>Mobile</span></div></div>
+      <div class="tool reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/dart/dart-original.svg" alt=""><div><b>Dart</b><span>Mobile</span></div></div>
+      <div class="tool reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" alt=""><div><b>JavaScript</b><span>Front-end</span></div></div>
+      <div class="tool reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/html5/html5-original.svg" alt=""><div><b>HTML</b><span>Front-end</span></div></div>
+      <div class="tool reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/css3/css3-original.svg" alt=""><div><b>CSS</b><span>Front-end</span></div></div>
+      <div class="tool reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/bootstrap/bootstrap-original.svg" alt=""><div><b>Bootstrap</b><span>Front-end</span></div></div>
+      <div class="tool reveal"><svg class="tool__ico" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg><div><b>Banco de Dados</b><span>Modelagem e consultas</span></div></div>
+      <div class="tool reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg" alt=""><div><b>Git &amp; GitHub</b><span>Versionamento</span></div></div>
+      <div class="tool reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/linux/linux-original.svg" alt=""><div><b>Linux</b><span>Sistemas e servidores</span></div></div>
+      <div class="tool reveal"><svg class="tool__ico" viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg><div><b>Segurança da Informação</b><span>Cibersegurança</span></div></div>
+      <div class="tool reveal"><svg class="tool__ico" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="6" rx="1"/><rect x="2" y="15" width="20" height="6" rx="1"/><path d="M6 6h.01M6 18h.01M12 9v6"/></svg><div><b>Redes e Infraestrutura</b><span>Cabeamento e racks</span></div></div>
+      <div class="tool reveal"><svg class="tool__ico" viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1v-6h3zM3 19a2 2 0 0 0 2 2h1v-6H3z"/></svg><div><b>Suporte Técnico</b><span>Hardware e usuários</span></div></div>
+      <div class="tool reveal"><svg class="tool__ico" viewBox="0 0 24 24"><path d="M12 3l1.8 4.6L18 9.5l-4.2 1.9L12 16l-1.8-4.6L6 9.5l4.2-1.9z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg><div><b>IA no desenvolvimento</b><span>Produtividade</span></div></div>
+      <div class="tool reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/windows11/windows11-original.svg" alt=""><div><b>Windows</b><span>Sistemas operacionais</span></div></div>
+      <div class="tool reveal"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/photoshop/photoshop-original.svg" alt=""><div><b>Photoshop</b><span>Design gráfico</span></div></div>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE ============ -->
+  <section class="section about" id="sobre">
+    <div class="about__photo reveal">
+      <img src="assets/foto.webp" alt="Foto de Julia Camini Veiga" onerror="this.remove()">
+      <span class="photo__fallback">J</span>
+      <i class="corner tl"></i><i class="corner br"></i>
+    </div>
+    <div class="about__text reveal">
+      <h2 class="label"><span class="label__icon">✦</span> SOBRE MIM</h2>
+      <p class="about__lead">Desenvolvo sistemas web que as pessoas usam de verdade.</p>
+      <p>Hoje mantenho 4 sistemas em produção, cada um com portal público e painel administrativo, e estou criando um app de carteirinha digital em Flutter.</p>
+      <p>Estou no último semestre de Análise e Desenvolvimento de Sistemas (UPF) e curso Cibersegurança (UNOPAR). Uso IA no dia a dia de desenvolvimento e quero me aprofundar em desenvolvimento fullstack com IA e nuvem.</p>
+      <ul class="traits">
+        <li>Rápida aprendizagem</li>
+        <li>Atenção a detalhes</li>
+        <li>Organização e responsabilidade</li>
+        <li>Trabalho em equipe</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CONTATO ============ -->
+  <section class="contact" id="contato">
+    <div class="contact__title">
+      <h2 class="display">
+        <span class="outline reveal">VAMOS CONSTRUIR</span>
+        <span class="accent reveal">ALGO INCRÍVEL.</span>
+      </h2>
+    </div>
+    <div class="contact__list">
+      <h3 class="mono">VAMOS CONVERSAR <span>↓</span></h3>
+      <a href="mailto:juliacamini09@gmail.com"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7 10-7"/></svg>juliacamini09@gmail.com</a>
+      <a href="https://wa.me/5554996067747" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 7.7 19.4z"/></svg>(54) 99606-7747</a>
+      <a href="https://www.linkedin.com/in/juliacaminiveiga" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="3"/><path d="M7 10v7M7 7v.01M11 17v-7M11 13a3 3 0 0 1 6 0v4"/></svg>linkedin.com/in/juliacaminiveiga</a>
+      <a href="https://github.com/Caminiju" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M9 19c-4 1.5-4-2-6-2.5m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>github.com/Caminiju</a>
+      <a href="https://www.instagram.com/caminiju" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>@caminiju</a>
+      <span><svg viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Passo Fundo, RS</span>
+    </div>
+    <svg class="globe" viewBox="0 0 200 200" aria-hidden="true">
+      <circle cx="100" cy="100" r="95"/>
+      <ellipse cx="100" cy="100" rx="45" ry="95"/>
+      <ellipse cx="100" cy="100" rx="80" ry="95"/>
+      <path d="M100 5v190M5 100h190"/>
+      <ellipse cx="100" cy="100" rx="95" ry="40"/>
+      <ellipse cx="100" cy="100" rx="95" ry="75"/>
+      <path class="globe__star" d="M100 70c1 18 12 29 30 30-18 1-29 12-30 30-1-18-12-29-30-30 18-1 29-12 30-30z"/>
+    </svg>
+  </section>
+
+  <footer class="footer mono">
+    <span>© <span id="year"></span> Julia Camini Veiga</span>
+    <span>Feito com HTML, CSS e café ☕</span>
+    <a href="#topo">Voltar ao topo ↑</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
